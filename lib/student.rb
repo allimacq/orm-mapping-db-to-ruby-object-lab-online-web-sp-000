@@ -96,7 +96,7 @@ class Student
   end
   
   def self.first_student_in_grade_10
-    p self.first_X_students_in_grade_10(1).id
+    puts self.first_X_students_in_grade_10(1).id
   end
   
 end
