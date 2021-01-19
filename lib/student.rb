@@ -97,8 +97,7 @@ class Student
   
   def self.first_student_in_grade_10
     first_student = self.first_X_students_in_grade_10(1)
-    first_student.id = first_student[0]
-    first_student.name = first_student[1]
+    puts first_student.id
   end
   
   def self.all_students_in_grade_X(grade)
