@@ -97,7 +97,7 @@ class Student
   
   def self.first_student_in_grade_10
     first_student = self.first_X_students_in_grade_10(1)
-    p first_student
+    first_student
   end
   
 end
