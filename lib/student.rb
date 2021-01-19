@@ -97,7 +97,7 @@ class Student
   
   def self.first_student_in_grade_10
     first_student = self.first_X_students_in_grade_10(1)
-    puts first_student[0]
+    p first_student[0]
     #instance = first_student[0] + first_student[1] + first_student[2]
     #puts instance
   end
