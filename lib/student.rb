@@ -97,7 +97,7 @@ class Student
   
   def self.first_student_in_grade_10
     first_student = self.first_X_students_in_grade_10(1)
-    puts first_student.join(",")
+    puts first_student.join
   end
   
   def self.all_students_in_grade_X(grade)
